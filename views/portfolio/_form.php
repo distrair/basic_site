@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use sjaakp\wysiwyg\Wysiwyg;
 
 /** @var yii\web\View $this */
 /** @var app\models\Portfolio $model */
@@ -12,7 +13,7 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
+    <?= $form->field($model, 'description')->widget(Wysiwyg::class, []) ?>
 
     <?= $form->field($model, 'skills')->textInput(['maxlength' => true]) ?>
 

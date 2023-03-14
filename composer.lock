@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "df69c8cd2344818d3fc1c2042fb3addc",
+    "content-hash": "e78806ea507a08207969a6197158ca02",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -686,6 +686,56 @@
                 "source": "https://github.com/rmrevin/yii2-fontawesome"
             },
             "time": "2021-01-13T13:58:04+00:00"
+        },
+        {
+            "name": "sjaakp/yii2-wysiwyg",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sjaakp/yii2-wysiwyg.git",
+                "reference": "3255eec8efcd52e86afed724c40f5f60f754652e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sjaakp/yii2-wysiwyg/zipball/3255eec8efcd52e86afed724c40f5f60f754652e",
+                "reference": "3255eec8efcd52e86afed724c40f5f60f754652e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "sjaakp\\wysiwyg\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sjaak Priester",
+                    "email": "sjaak@sjaakpriester.nl",
+                    "homepage": "https://sjaakpriester.nl"
+                }
+            ],
+            "description": "Redactor editor for Yii2.x",
+            "keywords": [
+                "editor",
+                "extension",
+                "widget",
+                "wysiwyg",
+                "yii",
+                "yii2"
+            ],
+            "support": {
+                "issues": "https://github.com/sjaakp/yii2-wysiwyg/issues",
+                "source": "https://github.com/sjaakp/yii2-wysiwyg/tree/master"
+            },
+            "time": "2019-12-28T11:05:27+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
